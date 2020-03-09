@@ -69,7 +69,7 @@
     },
     "primaryNodeVmSize": {
       "type": "string",
-      "defaultValue": "Standard_A4_v2",
+      "defaultValue": "Standard_D2s_v3",
       "metadata": {
         "description": "The size of the virtual machines used when provisioning the primary node"
       }
