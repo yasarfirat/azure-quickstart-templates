@@ -76,7 +76,7 @@
     },
     "secondaryNodeVmSize": {
       "type": "string",
-      "defaultValue": "Standard_A4_v2",
+      "defaultValue": "Standard_D2s_v3",
       "metadata": {
         "description": "The size of the virtual machines used when provisioning secondary node(s)"
       }
@@ -163,7 +163,7 @@
     "primaryTemplateUrl": "[uri(variables('environment').artifactsLocation, concat('nested/primary-resources.json', variables('environment').artifactsLocationSasToken))]",
     "secondaryTemplateUrl": "[uri(variables('environment').artifactsLocation, concat('nested/secondary-resources.json', variables('environment').artifactsLocationSasToken))]",
     "namespace": "mongodb-",
-    "virtualNetworkName": "myVNET1",
+    "virtualNetworkName": "MongoVNET1",
     "numDataDisks": "4",
     "apiVersion": "2015-01-01",
     "networkSettings": {
